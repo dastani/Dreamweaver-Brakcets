@@ -1,0 +1,16 @@
+{
+    "title": "Dreamweaver",
+    "name": "dreamweaver-light",
+    "description": "A dreamweaver theme that makes your code pretty and readable.",
+    "version": "1.0.6",
+    "author": "Hamid Dastani <dastanionline@gmail.com> (http://dastanionline.ir/)",
+    "homepage": "https://github.com/dastani/Dreamweaver-Brackets",
+    "license": "MIT",
+    "engines": {
+        "brackets": ">=0.42.0"
+    },
+    "theme": {
+        "file": "theme.css",
+        "dark": false
+    }
+}
