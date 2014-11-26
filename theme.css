@@ -64,7 +64,7 @@ span.cm-keyword		{ color: #008000; }
 }
 
 .CodeMirror-activeline-background {
-	background: #9acdff !important;
+	background: rgba(154, 205, 255, 0.44) !important;
 }
 
 .CodeMirror-focused .CodeMirror-activeline .CodeMirror-gutter-elt {
