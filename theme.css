@@ -76,13 +76,16 @@ span.cm-keyword		{ color: #008000; }
 /* Matching */
 
 .CodeMirror-matchingbracket {
-    background: #9400a7 !important;
-    color: #fff !important;
+    background-color: transparent !important;
+    border-bottom: 1px solid; /* text-decoration: underline does not look that well with large font sizes */
+    color: #c00 !important;
+    padding-bottom: 0.166em;
 }
 
 .CodeMirror-matchingtag {
-    background: #ffe730 !important;
-    color: #666 !important;
+    background-color: transparent;
+    border-bottom: 1px dotted #d31ad3; /* text-decoration: underline does not look that well with large font sizes */
+    padding-bottom: 0.166em;
 }
 
 /* Searching */
