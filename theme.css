@@ -4,26 +4,26 @@ span.cm-attribute	{ color: #008000; }
 span.cm-builtin     { color: #008000; }
 span.cm-def			{ color: #008000; }
 span.cm-header      { color: #008000; }
-span.cm-qualifier	{ color: #008000; }
+span.cm-qualifier	{ color: #ce00c6; }
 
-span.cm-atom		{ color: #cc0000; }
-span.cm-number		{ color: #cc0000; }
+span.cm-atom		{ color: #c00; }
+span.cm-number		{ color: #c00; }
 span.cm-link		{ color: #cc0000; }
-span.cm-string		{ color: #cc0000; }
+span.cm-string		{ color: #cc0000;  }
 span.cm-string-2    { color: #cc0000; }
 
-span.cm-meta		{ color: #cc0000; font-weight: bold; }
+span.cm-meta		{ color: #cc0000;}
 span.cm-operator	{ color: #2757fc; }
 span.cm-property	{ color: #2757fc; } /* property after string */
 span.cm-variable-2	{ color: #2757fc; }
 span.cm-variable-3	{ color: #2757fc; }
 
-span.cm-variable	{ color: #000; }
-span.cm-tag			{ color: #3a8000; }
-span.cm-bracket		{ color: #b14c5a; }
-span.cm-comment		{ color: #ffa600; }
-span.cm-error		{ color: #e62323; }
-span.cm-keyword		{ color: #008000; }
+span.cm-variable	{ color: #000; line-height: 18px; }
+span.cm-tag			{ color: #ce00c6; line-height: 18px;}
+span.cm-bracket		{ color: #b14c5a; line-height: 18px; }
+span.cm-comment		{ color: #ffa600; line-height: 18px; }
+span.cm-error		{ color: #e62323; line-height: 18px;}
+span.cm-keyword		{ color: #008000; line-height: 18px; }
 
 
 /* MISC ---------------------------------------------------------------------- */
@@ -36,7 +36,7 @@ span.cm-keyword		{ color: #008000; }
 
 .CodeMirror-gutters {
 	background: #f8f8f8;
-	border-right: 1px solid #ddd;
+	border-right: 1px solid #ddd; 
     
 }
 
